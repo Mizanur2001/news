@@ -4,7 +4,7 @@ let newsJambotron = document.getElementById('newsJambotron');
 
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', 'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=10a06673d7894dbeb1fba2ee39846aa4', true);
+xhr.open('GET', 'https://saurav.tech/NewsAPI/top-headlines/category/health/in.json', true);
 
 xhr.onprogress = function () {
     console.log("Loading...");
